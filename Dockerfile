@@ -3,6 +3,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG LC_ALL=en_US.UTF-8
 ARG TERM=linux
 ENV TERM=xterm LANG=C.UTF-8 LC_ALL=C.UTF-8
+
 RUN curl -sL https://getcomposer.org/installer | php -- --install-dir /usr/bin --filename composer
 RUN a2enmod rewrite expires headers \
     && apt-get update \
@@ -21,7 +22,7 @@ RUN a2enmod rewrite expires headers \
     && cd /tmp/imagick \
     && phpize && ./configure \
     && make && make install \
-    && cd /application && rm -rf /tmp/imagick \
+    && rm -rf /tmp/imagick \
     && docker-php-ext-enable imagick \
     && docker-php-ext-install sockets \
     && apt-get purge -y \
@@ -29,5 +30,6 @@ RUN a2enmod rewrite expires headers \
         libicu-dev \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 RUN pecl install redis && pecl install && docker-php-ext-enable redis
+
 WORKDIR "/var/www"
 EXPOSE 80
