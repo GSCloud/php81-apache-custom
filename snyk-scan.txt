@@ -2,13 +2,6 @@ docker scan gscloudcz/php81-apache-custom:latest
 
 Testing gscloudcz/php81-apache-custom:latest...
 
-✗ Low severity vulnerability found in zip
-  Description: Use After Free
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-ZIP-530469
-  Introduced through: zip@3.0-12
-  From: zip@3.0-12
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
-
 ✗ Low severity vulnerability found in util-linux/uuid-dev
   Description: Information Exposure
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-UTILLINUX-2401081
@@ -17,14 +10,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: util-linux/libblkid-dev@2.36.1-8+deb11u1 > util-linux/uuid-dev@2.36.1-8+deb11u1
   From: cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > util-linux/uuid-dev@2.36.1-8+deb11u1
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
-
-✗ Low severity vulnerability found in unzip
-  Description: CVE-2021-4217
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-UNZIP-2387325
-  Introduced through: unzip@6.0-26
-  From: unzip@6.0-26
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Out-of-bounds Read
@@ -34,7 +20,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Resource Exhaustion
@@ -44,7 +30,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: CVE-2022-1354
@@ -54,7 +40,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: CVE-2022-1355
@@ -64,27 +50,27 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
-  Description: CVE-2022-1623
+  Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2823289
   Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3, tiff/libtiff-dev@4.2.0-1+deb11u1, gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1, ghostscript@9.53.3~dfsg-7+deb11u2, tiff/libtiffxx5@4.2.0-1+deb11u1
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
-  Description: CVE-2022-1622
+  Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2823291
   Introduced through: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3, tiff/libtiff-dev@4.2.0-1+deb11u1, gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1, ghostscript@9.53.3~dfsg-7+deb11u2, tiff/libtiffxx5@4.2.0-1+deb11u1
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Out-of-bounds Read
@@ -94,7 +80,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: NULL Pointer Dereference
@@ -104,7 +90,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Missing Release of Resource after Effective Lifetime
@@ -114,7 +100,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Use After Free
@@ -124,7 +110,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Out-of-bounds Read
@@ -134,7 +120,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tiff/libtiff5
   Description: Divide By Zero
@@ -144,14 +130,14 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > tiff/libtiff5@4.2.0-1+deb11u1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in tar
   Description: CVE-2005-2541
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-TAR-523480
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > tar@1.34+dfsg-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in systemd/libsystemd0
   Description: Authentication Bypass
@@ -161,7 +147,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > systemd/libsystemd0@247.3-7
   and 6 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in systemd/libsystemd0
   Description: Link Following
@@ -171,34 +157,32 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > systemd/libsystemd0@247.3-7
   and 6 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in sudo
   Description: CVE-2005-1119
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-SUDO-519036
   Introduced through: sudo@1.9.5p2-3
   From: sudo@1.9.5p2-3
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in sqlite3/libsqlite3-0
   Description: CVE-2021-36690
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-1569419
-  Introduced through: sqlite3/libsqlite3-0@3.34.1-3, sqlite3@3.34.1-3, python3-defaults/libpython3-stdlib@3.9.2-3, apache2@2.4.53-1~deb11u1
+  Introduced through: sqlite3/libsqlite3-0@3.34.1-3, python3-defaults/libpython3-stdlib@3.9.2-3, apache2@2.4.53-1~deb11u1
   From: sqlite3/libsqlite3-0@3.34.1-3
-  From: sqlite3@3.34.1-3 > sqlite3/libsqlite3-0@3.34.1-3
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
-  and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in sqlite3/libsqlite3-0
   Description: Memory Leak
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-2407045
-  Introduced through: sqlite3/libsqlite3-0@3.34.1-3, sqlite3@3.34.1-3, python3-defaults/libpython3-stdlib@3.9.2-3, apache2@2.4.53-1~deb11u1
+  Introduced through: sqlite3/libsqlite3-0@3.34.1-3, python3-defaults/libpython3-stdlib@3.9.2-3, apache2@2.4.53-1~deb11u1
   From: sqlite3/libsqlite3-0@3.34.1-3
-  From: sqlite3@3.34.1-3 > sqlite3/libsqlite3-0@3.34.1-3
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
-  and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in shadow/passwd
   Description: Access Restriction Bypass
@@ -208,7 +192,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in shadow/passwd
   Description: Time-of-check Time-of-use (TOCTOU)
@@ -218,7 +202,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in shadow/passwd
   Description: Incorrect Permission Assignment for Critical Resource
@@ -228,21 +212,21 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1
   From: shadow/login@1:4.8.1-1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in re2c
   Description: Out-of-bounds Write
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-RE2C-2436868
   Introduced through: re2c@2.0.3-1
   From: re2c@2.0.3-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in re2c
   Description: Uncontrolled Recursion
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-RE2C-567857
   Introduced through: re2c@2.0.3-1
   From: re2c@2.0.3-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: CVE-2020-27619
@@ -252,7 +236,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Information Exposure
@@ -262,7 +246,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Improper Input Validation
@@ -272,7 +256,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Resource Exhaustion
@@ -282,7 +266,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Resource Exhaustion
@@ -292,7 +276,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: CVE-2021-4189
@@ -302,7 +286,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Arbitrary Code Injection
@@ -312,7 +296,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in python3.9/libpython3.9-minimal
   Description: Arbitrary Command Injection
@@ -322,7 +306,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/python3.9-minimal@3.9.2-1 > python3.9/libpython3.9-minimal@3.9.2-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in perl/perl-modules-5.32
   Description: Improper Verification of Cryptographic Signature
@@ -332,7 +316,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > mime-support@3.66 > mailcap@3.69 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
   From: apache2@2.4.53-1~deb11u1 > mime-support@3.66 > mailcap@3.69 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2
   and 4 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in perl/perl-modules-5.32
   Description: Link Following
@@ -342,7 +326,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > mime-support@3.66 > mailcap@3.69 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
   From: apache2@2.4.53-1~deb11u1 > mime-support@3.66 > mailcap@3.69 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2
   and 4 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-Bounds
@@ -352,7 +336,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-Bounds
@@ -362,7 +346,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Uncontrolled Recursion
@@ -372,7 +356,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-Bounds
@@ -382,7 +366,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in pcre3/libpcre16-3
   Description: Out-of-bounds Read
@@ -392,111 +376,91 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
   From: pcre3/libpcre32-3@2:8.39-13
   and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
-
-✗ Low severity vulnerability found in pcre2/libpcre2-16-0
-  Description: CVE-2022-1587
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE2-2808697
-  Introduced through: pcre2/libpcre2-16-0@10.36-2, cairo/libcairo2-dev@1.16.0-5, pcre2/libpcre2-32-0@10.36-2, pcre2/libpcre2-posix2@10.36-2, pcre2/libpcre2-dev@10.36-2, meta-common-packages@meta
-  From: pcre2/libpcre2-16-0@10.36-2
-  From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > pcre2/libpcre2-dev@10.36-2 > pcre2/libpcre2-16-0@10.36-2
-  From: pcre2/libpcre2-32-0@10.36-2
-  and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
-
-✗ Low severity vulnerability found in pcre2/libpcre2-16-0
-  Description: CVE-2022-1586
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE2-2808704
-  Introduced through: pcre2/libpcre2-16-0@10.36-2, cairo/libcairo2-dev@1.16.0-5, pcre2/libpcre2-32-0@10.36-2, pcre2/libpcre2-posix2@10.36-2, pcre2/libpcre2-dev@10.36-2, meta-common-packages@meta
-  From: pcre2/libpcre2-16-0@10.36-2
-  From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > pcre2/libpcre2-dev@10.36-2 > pcre2/libpcre2-16-0@10.36-2
-  From: pcre2/libpcre2-32-0@10.36-2
-  and 6 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Release of Invalid Pointer or Reference
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-2324789
-  Introduced through: dpkg/dpkg-dev@1.20.9
-  From: dpkg/dpkg-dev@1.20.9 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Introduced through: dpkg/dpkg-dev@1.20.10
+  From: dpkg/dpkg-dev@1.20.10 > patch@2.7.6-7
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: NULL Pointer Dereference
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-525129
-  Introduced through: dpkg/dpkg-dev@1.20.9
-  From: dpkg/dpkg-dev@1.20.9 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Introduced through: dpkg/dpkg-dev@1.20.10
+  From: dpkg/dpkg-dev@1.20.10 > patch@2.7.6-7
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Directory Traversal
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-525153
-  Introduced through: dpkg/dpkg-dev@1.20.9
-  From: dpkg/dpkg-dev@1.20.9 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Introduced through: dpkg/dpkg-dev@1.20.10
+  From: dpkg/dpkg-dev@1.20.10 > patch@2.7.6-7
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in patch
   Description: Double Free
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-526305
-  Introduced through: dpkg/dpkg-dev@1.20.9
-  From: dpkg/dpkg-dev@1.20.9 > patch@2.7.6-7
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Introduced through: dpkg/dpkg-dev@1.20.10
+  From: dpkg/dpkg-dev@1.20.10 > patch@2.7.6-7
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openssl
   Description: Cryptographic Issues
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-518334
   Introduced through: ca-certificates@20210119, meta-common-packages@meta
-  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u1
-  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u2
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u2
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openssl
   Description: Cryptographic Issues
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-525332
   Introduced through: ca-certificates@20210119, meta-common-packages@meta
-  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u1
-  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u2
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u2
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openldap/libldap-2.4-2
   Description: Improper Initialization
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-521320
-  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
-  From: openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
+  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
+  From: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openldap/libldap-2.4-2
   Description: Out-of-Bounds
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531344
-  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
-  From: openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
+  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
+  From: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openldap/libldap-2.4-2
   Description: Cryptographic Issues
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531747
-  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
-  From: openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
+  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
+  From: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openldap/libldap-2.4-2
   Description: Improper Certificate Validation
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-584937
-  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
-  From: openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
+  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
+  From: openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Integer Overflow or Wraparound
@@ -506,7 +470,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-bounds Write
@@ -516,7 +480,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Access of Uninitialized Pointer
@@ -526,7 +490,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Integer Overflow or Wraparound
@@ -536,7 +500,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Allocation of Resources Without Limits or Throttling
@@ -546,7 +510,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-bounds Write
@@ -556,7 +520,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: NULL Pointer Dereference
@@ -566,7 +530,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: NULL Pointer Dereference
@@ -576,7 +540,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: NULL Pointer Dereference
@@ -586,7 +550,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Improper Input Validation
@@ -596,7 +560,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-bounds Write
@@ -606,7 +570,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-Bounds
@@ -616,7 +580,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: NULL Pointer Dereference
@@ -626,7 +590,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Divide By Zero
@@ -636,7 +600,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-bounds Write
@@ -646,7 +610,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: Out-of-Bounds
@@ -656,7 +620,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
   Description: NULL Pointer Dereference
@@ -666,7 +630,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > openjpeg2/libopenjp2-7@2.4.0-3
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Resource Exhaustion
@@ -676,7 +640,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Integer Underflow
@@ -686,7 +650,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Resource Exhaustion
@@ -696,7 +660,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Out-of-Bounds
@@ -706,7 +670,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in openexr/libopenexr25
   Description: Resource Exhaustion
@@ -716,7 +680,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in ncurses/libtinfo6
   Description: Out-of-bounds Write
@@ -726,7 +690,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: bash/bash@5.1-2+b3 > ncurses/libtinfo6@6.2+20201114-2
   From: ncurses/ncurses-bin@6.2+20201114-2 > ncurses/libtinfo6@6.2+20201114-2
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in ncurses/libtinfo6
   Description: Out-of-bounds Read
@@ -736,42 +700,42 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: bash/bash@5.1-2+b3 > ncurses/libtinfo6@6.2+20201114-2
   From: ncurses/ncurses-bin@6.2+20201114-2 > ncurses/libtinfo6@6.2+20201114-2
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in m4
   Description: CVE-2008-1688
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-M4-517010
   Introduced through: autoconf@2.69-14
   From: autoconf@2.69-14 > m4@1.4.18-5
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in m4
   Description: CVE-2008-1687
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-M4-525846
   Introduced through: autoconf@2.69-14
   From: autoconf@2.69-14 > m4@1.4.18-5
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Uncontrolled Recursion
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-LUA53-1914008
   Introduced through: apache2@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Use After Free
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-LUA53-517140
   Introduced through: apache2@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in lua5.3/liblua5.3-0
   Description: Integer Underflow
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-LUA53-608213
   Introduced through: apache2@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > lua5.3/liblua5.3-0@5.3.3-1.1+b1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Numeric Errors
@@ -781,7 +745,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Out-of-Bounds
@@ -791,7 +755,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Resource Management Errors
@@ -801,7 +765,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwmf/libwmf0.2-7
   Description: Numeric Errors
@@ -811,7 +775,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
   From: libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libwebp/libwebp6
   Description: Integer Overflow or Wraparound
@@ -821,7 +785,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libwebp/libwebpdemux2@0.6.1-2.1 > libwebp/libwebp6@0.6.1-2.1
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libwebp/libwebpmux3@0.6.1-2.1 > libwebp/libwebp6@0.6.1-2.1
   and 5 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Use After Free
@@ -831,7 +795,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Out-of-bounds Read
@@ -841,7 +805,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Use After Free
@@ -851,7 +815,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libsepol/libsepol1
   Description: Use After Free
@@ -861,7 +825,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libpng1.6/libpng-dev
   Description: CVE-2021-4214
@@ -871,7 +835,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > libpng1.6/libpng-dev@1.6.37-3
   From: gdk-pixbuf/libgdk-pixbuf-2.0-dev@2.42.2+dfsg-1 > libpng1.6/libpng-dev@1.6.37-3
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libpng1.6/libpng-dev
   Description: Memory Leak
@@ -881,7 +845,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > libpng1.6/libpng-dev@1.6.37-3
   From: gdk-pixbuf/libgdk-pixbuf-2.0-dev@2.42.2+dfsg-1 > libpng1.6/libpng-dev@1.6.37-3
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libheif/libheif1
   Description: Buffer Overflow
@@ -889,7 +853,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libheif/libheif1@1.11.0-1, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3
   From: libheif/libheif1@1.11.0-1
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libgcrypt20
   Description: Information Exposure
@@ -899,7 +863,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
   From: apt@2.2.4 > gnupg2/gpgv@2.2.27-2+deb11u1 > libgcrypt20@1.8.7-6
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libgcrypt20
   Description: Use of a Broken or Risky Cryptographic Algorithm
@@ -909,7 +873,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
   From: apt@2.2.4 > gnupg2/gpgv@2.2.27-2+deb11u1 > libgcrypt20@1.8.7-6
   and 2 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: CVE-2020-21605
@@ -917,7 +881,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -925,7 +889,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -933,7 +897,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -941,7 +905,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -949,7 +913,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -957,7 +921,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -965,7 +929,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -973,7 +937,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -981,7 +945,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -989,7 +953,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Buffer Overflow
@@ -997,7 +961,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1005,7 +969,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1013,7 +977,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Use After Free
@@ -1021,7 +985,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Reachable Assertion
@@ -1029,7 +993,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -1037,7 +1001,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in libde265/libde265-0
   Description: CVE-2021-36411
@@ -1045,7 +1009,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
   Description: CVE-2004-0971
@@ -1055,7 +1019,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > krb5/libk5crypto3@1.18.3-6+deb11u1
   From: meta-common-packages@meta > krb5/libkrb5-3@1.18.3-6+deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
   Description: Integer Overflow or Wraparound
@@ -1065,7 +1029,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > krb5/libk5crypto3@1.18.3-6+deb11u1
   From: meta-common-packages@meta > krb5/libkrb5-3@1.18.3-6+deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in jbigkit/libjbig0
   Description: Out-of-Bounds
@@ -1075,14 +1039,14 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: jbigkit/libjbig-dev@2.1-3.1+b2 > jbigkit/libjbig0@2.1-3.1+b2
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > tiff/libtiff5@4.2.0-1+deb11u1 > jbigkit/libjbig0@2.1-3.1+b2
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in jansson/libjansson4
   Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-JANSSON-1264524
   Introduced through: apache2@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > jansson/libjansson4@2.13.1-1.1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1092,7 +1056,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1102,7 +1066,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1112,7 +1076,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1122,7 +1086,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1132,7 +1096,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1142,7 +1106,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Integer Overflow or Wraparound
@@ -1152,7 +1116,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Information Exposure
@@ -1162,7 +1126,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Divide By Zero
@@ -1172,7 +1136,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Exposure of Resource to Wrong Sphere
@@ -1182,7 +1146,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Improper Input Validation
@@ -1192,7 +1156,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Use After Free
@@ -1202,7 +1166,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: CVE-2022-1115
@@ -1212,17 +1176,17 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
-  Description: CVE-2022-28463
+  Description: Buffer Overflow
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2812515
   Introduced through: imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-6-headers@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-6-headers@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-6.q16-6@8:6.9.11.60+dfsg-1.3
   From: imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: CVE-2005-0406
@@ -1232,7 +1196,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Resource Management Errors
@@ -1242,7 +1206,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Missing Release of Resource after Effective Lifetime
@@ -1252,7 +1216,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Resource Exhaustion
@@ -1262,7 +1226,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Missing Release of Resource after Effective Lifetime
@@ -1272,7 +1236,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-Bounds
@@ -1282,7 +1246,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
   Description: Out-of-bounds Read
@@ -1292,7 +1256,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6-arch-config@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
   and 14 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in gnutls28/libgnutls30
   Description: CVE-2021-4209
@@ -1302,7 +1266,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5
   From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > gnutls28/libgnutls30@3.7.1-5
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in gnutls28/libgnutls30
   Description: Improper Input Validation
@@ -1312,7 +1276,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5
   From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > gnutls28/libgnutls30@3.7.1-5
   and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: CVE-2021-3999
@@ -1322,7 +1286,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Out-of-Bounds
@@ -1332,7 +1296,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Uncontrolled Recursion
@@ -1342,7 +1306,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Use of Insufficiently Random Values
@@ -1352,7 +1316,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Information Exposure
@@ -1362,7 +1326,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: CVE-2019-1010023
@@ -1372,7 +1336,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Uncontrolled Recursion
@@ -1382,7 +1346,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glibc/libc-bin
   Description: Resource Management Errors
@@ -1392,7 +1356,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u3
   From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u3
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in glib2.0/libglib2.0-data
   Description: Cryptographic Issues
@@ -1402,7 +1366,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > glib2.0/libglib2.0-bin@2.66.8-1 > glib2.0/libglib2.0-data@2.66.8-1
   From: glib2.0/libglib2.0-bin@2.66.8-1
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in git/git-man
   Description: Exposure of Resource to Wrong Sphere
@@ -1410,7 +1374,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: git@1:2.30.2-1
   From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
   From: git@1:2.30.2-1
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in git/git-man
   Description: Uncontrolled Search Path Element
@@ -1418,7 +1382,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: git@1:2.30.2-1
   From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
   From: git@1:2.30.2-1
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in git/git-man
   Description: Improper Input Validation
@@ -1426,7 +1390,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: git@1:2.30.2-1
   From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
   From: git@1:2.30.2-1
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in ghostscript/libgs9-common
   Description: Out-of-bounds Write
@@ -1435,7 +1399,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9-common@9.53.3~dfsg-7+deb11u2
   From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2
   From: ghostscript@9.53.3~dfsg-7+deb11u2
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in gdk-pixbuf/libgdk-pixbuf2.0-common
   Description: Out-of-bounds Write
@@ -1445,7 +1409,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1 > gdk-pixbuf/libgdk-pixbuf2.0-common@2.42.2+dfsg-1
   From: gdk-pixbuf/libgdk-pixbuf-2.0-0@2.42.2+dfsg-1
   and 12 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in fribidi/libfribidi0
   Description: CVE-2022-25308
@@ -1453,7 +1417,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: fribidi/libfribidi0@1.0.8-2, librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1
   From: fribidi/libfribidi0@1.0.8-2
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > pango1.0/libpango-1.0-0@1.46.2-3 > fribidi/libfribidi0@1.0.8-2
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in fribidi/libfribidi0
   Description: CVE-2022-25309
@@ -1461,7 +1425,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: fribidi/libfribidi0@1.0.8-2, librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1
   From: fribidi/libfribidi0@1.0.8-2
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > pango1.0/libpango-1.0-0@1.46.2-3 > fribidi/libfribidi0@1.0.8-2
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in fribidi/libfribidi0
   Description: CVE-2022-25310
@@ -1469,7 +1433,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: fribidi/libfribidi0@1.0.8-2, librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1
   From: fribidi/libfribidi0@1.0.8-2
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > pango1.0/libpango-1.0-0@1.46.2-3 > fribidi/libfribidi0@1.0.8-2
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in freetype/libfreetype6-dev
   Description: Out-of-bounds Read
@@ -1479,7 +1443,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   From: libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   and 3 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in freetype/libfreetype6-dev
   Description: Out-of-bounds Write
@@ -1489,7 +1453,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   From: libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   and 3 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in freetype/libfreetype6-dev
   Description: Out-of-bounds Read
@@ -1499,7 +1463,17 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   From: libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1
   and 3 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
+
+✗ Low severity vulnerability found in freetype/libfreetype6-dev
+  Description: CVE-2022-31782
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-FREETYPE-2848681
+  Introduced through: freetype/libfreetype6-dev@2.10.4+dfsg-1, cairo/libcairo2-dev@1.16.0-5, libwmf/libwmf-dev@0.2.8.4-17, meta-common-packages@meta
+  From: freetype/libfreetype6-dev@2.10.4+dfsg-1
+  From: cairo/libcairo2-dev@1.16.0-5 > freetype/libfreetype6-dev@2.10.4+dfsg-1
+  From: libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1
+  and 3 more...
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in expat/libexpat1-dev
   Description: XML External Entity (XXE) Injection
@@ -1508,7 +1482,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: expat/libexpat1-dev@2.2.10-2+deb11u3
   From: cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > expat/libexpat1-dev@2.2.10-2+deb11u3
   From: meta-common-packages@meta > expat/libexpat1@2.2.10-2+deb11u3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in e2fsprogs/libext2fs2
   Description: Out-of-bounds Read
@@ -1518,7 +1492,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: e2fsprogs@1.46.2-2 > e2fsprogs/libext2fs2@1.46.2-2
   From: e2fsprogs/libss2@1.46.2-2
   and 5 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in db5.3/libdb5.3
   Description: Out-of-bounds Read
@@ -1528,7 +1502,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1 > db5.3/libdb5.3@5.3.28+dfsg1-0.8
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > apr-util/libaprutil1@1.6.1-5 > db5.3/libdb5.3@5.3.28+dfsg1-0.8
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Missing Initialization of Resource
@@ -1538,7 +1512,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Use of Incorrectly-Resolved Name or Reference
@@ -1548,7 +1522,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Insufficiently Protected Credentials
@@ -1558,7 +1532,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Improper Validation of Integrity Check Value
@@ -1568,7 +1542,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Cleartext Transmission of Sensitive Information
@@ -1578,7 +1552,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Insufficient Verification of Data Authenticity
@@ -1588,7 +1562,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: Double Free
@@ -1598,7 +1572,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-27774
@@ -1608,7 +1582,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-27775
@@ -1618,7 +1592,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-27776
@@ -1628,7 +1602,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-22576
@@ -1638,7 +1612,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-27782
@@ -1648,7 +1622,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in curl/libcurl4
   Description: CVE-2022-27781
@@ -1658,28 +1632,28 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: curl@7.74.0-1.3+deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > curl/libcurl4@7.74.0-1.3+deb11u1
   and 2 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in cups/libcups2
   Description: Improper Input Validation
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-CUPS-526854
   Introduced through: ghostscript@9.53.3~dfsg-7+deb11u2
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in coreutils/coreutils
   Description: Improper Input Validation
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-514776
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > coreutils/coreutils@8.32-4+b1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in coreutils/coreutils
   Description: Race Condition
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-527269
   Introduced through: meta-common-packages@meta
   From: meta-common-packages@meta > coreutils/coreutils@8.32-4+b1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Loop with Unreachable Exit Condition ('Infinite Loop')
@@ -1689,7 +1663,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: NULL Pointer Dereference
@@ -1699,7 +1673,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Out-of-bounds Write
@@ -1709,7 +1683,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in cairo/libcairo-gobject2
   Description: Reachable Assertion
@@ -1719,187 +1693,187 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo-gobject2@1.16.0-5
   From: librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1 > librsvg/librsvg2-2@2.50.3+dfsg-1 > cairo/libcairo-gobject2@1.16.0-5
   and 11 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1054596
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Link Following
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1065551
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-Bounds
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1086496
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Improper Input Validation
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1244572
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1292158
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-Bounds
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1296883
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2321369
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2341553
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Allocation of Resources Without Limits or Throttling
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-517892
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Uncontrolled Recursion
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-522743
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Allocation of Resources Without Limits or Throttling
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-523191
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Use After Free
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-524967
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-525795
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Write
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-527784
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Out-of-bounds Read
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-528223
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in binutils/binutils-common
   Description: Integer Overflow or Wraparound
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-529902
-  Introduced through: dpkg/dpkg-dev@1.20.9, gcc-defaults/g++@4:10.2.1-1
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
-  From: dpkg/dpkg-dev@1.20.9 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  Introduced through: dpkg/dpkg-dev@1.20.10, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.10 > binutils@2.35.2-2 > binutils/binutils-x86-64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
   and 8 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in avahi/libavahi-common-data
   Description: Loop with Unreachable Exit Condition ('Infinite Loop')
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-AVAHI-1089435
   Introduced through: ghostscript@9.53.3~dfsg-7+deb11u2
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-common3@0.8-5
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in avahi/libavahi-common-data
   Description: NULL Pointer Dereference
   Info: https://snyk.io/vuln/SNYK-DEBIAN11-AVAHI-1247785
   Introduced through: ghostscript@9.53.3~dfsg-7+deb11u2
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-common3@0.8-5
-  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u1 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5 > avahi/libavahi-common-data@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-common3@0.8-5
+  From: ghostscript@9.53.3~dfsg-7+deb11u2 > ghostscript/libgs9@9.53.3~dfsg-7+deb11u2 > cups/libcups2@2.3.3op2-3+deb11u2 > avahi/libavahi-client3@0.8-5 > avahi/libavahi-common3@0.8-5
   and 1 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: 'apt-get -y install --no-install-recommends git sudo libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libpq-dev'
 
 ✗ Low severity vulnerability found in apt/libapt-pkg6.0
   Description: Improper Verification of Cryptographic Signature
@@ -1908,7 +1882,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apt/libapt-pkg6.0@2.2.4
   From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4
   From: apt@2.2.4
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Cross-site Scripting (XSS)
@@ -1918,7 +1892,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Session Fixation
@@ -1928,7 +1902,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Arbitrary Code Injection
@@ -1938,7 +1912,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Numeric Errors
@@ -1948,7 +1922,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: CVE-2003-1307
@@ -1958,7 +1932,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: CVE-2007-1743
@@ -1968,7 +1942,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Arbitrary Code Injection
@@ -1978,7 +1952,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in apache2/apache2-bin
   Description: Resource Exhaustion
@@ -1988,7 +1962,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-data@2.4.53-1~deb11u1
   From: apache2@2.4.53-1~deb11u1 > apache2/apache2-utils@2.4.53-1~deb11u1
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: NULL Pointer Dereference
@@ -1996,7 +1970,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: Buffer Overflow
@@ -2004,7 +1978,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: NULL Pointer Dereference
@@ -2012,7 +1986,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Low severity vulnerability found in aom/libaom0
   Description: Out-of-bounds Write
@@ -2020,21 +1994,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
-
-✗ Medium severity vulnerability found in unzip
-  Description: CVE-2022-0530
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-UNZIP-2396444
-  Introduced through: unzip@6.0-26
-  From: unzip@6.0-26
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
-
-✗ Medium severity vulnerability found in unzip
-  Description: Out-of-bounds Write
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-UNZIP-2396445
-  Introduced through: unzip@6.0-26
-  From: unzip@6.0-26
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Medium severity vulnerability found in openexr/libopenexr25
   Description: Out-of-bounds Read
@@ -2044,7 +2004,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Medium severity vulnerability found in openexr/libopenexr25
   Description: Integer Overflow or Wraparound
@@ -2054,7 +2014,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Medium severity vulnerability found in openexr/libopenexr25
   Description: Divide By Zero
@@ -2064,7 +2024,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Medium severity vulnerability found in openexr/libopenexr25
   Description: Out-of-bounds Write
@@ -2074,17 +2034,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
   From: openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
   and 1 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
-
-✗ Medium severity vulnerability found in libxml2
-  Description: Integer Overflow or Wraparound
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-2806812
-  Introduced through: libxml2@2.9.10+dfsg-6.7+deb11u1, imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3, apache2@2.4.53-1~deb11u1, librsvg/gir1.2-rsvg-2.0@2.50.3+dfsg-1, gdk-pixbuf/gir1.2-gdkpixbuf-2.0@2.42.2+dfsg-1
-  From: libxml2@2.9.10+dfsg-6.7+deb11u1
-  From: imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libxml2@2.9.10+dfsg-6.7+deb11u1
-  From: imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libxml2@2.9.10+dfsg-6.7+deb11u1
-  and 3 more...
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Medium severity vulnerability found in libde265/libde265-0
   Description: CVE-2021-35452
@@ -2092,25 +2042,27 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
-✗ Critical severity vulnerability found in openssl
-  Description: OS Command Injection
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-2807596
-  Introduced through: ca-certificates@20210119, meta-common-packages@meta
-  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u1
-  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+✗ Critical severity vulnerability found in pcre2/libpcre2-16-0
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE2-2808697
+  Introduced through: pcre2/libpcre2-16-0@10.36-2, cairo/libcairo2-dev@1.16.0-5, pcre2/libpcre2-32-0@10.36-2, pcre2/libpcre2-posix2@10.36-2, pcre2/libpcre2-dev@10.36-2, meta-common-packages@meta
+  From: pcre2/libpcre2-16-0@10.36-2
+  From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > pcre2/libpcre2-dev@10.36-2 > pcre2/libpcre2-16-0@10.36-2
+  From: pcre2/libpcre2-32-0@10.36-2
+  and 6 more...
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
-✗ Critical severity vulnerability found in openldap/libldap-2.4-2
-  Description: SQL Injection
-  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-2808413
-  Introduced through: openldap/libldap-2.4-2@2.4.57+dfsg-3, apache2@2.4.53-1~deb11u1, git@1:2.30.2-1, postgresql-13/libpq-dev@13.7-0+deb11u1
-  From: openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: apache2@2.4.53-1~deb11u1 > apache2/apache2-bin@2.4.53-1~deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u1 > openldap/libldap-2.4-2@2.4.57+dfsg-3
-  and 3 more...
-  Image layer: 'apt-get -y install --no-install-recommends git sudo sqlite3 libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmagickwand-dev ghostscript libicu-dev libzip-dev zip unzip libpq-dev'
+✗ Critical severity vulnerability found in pcre2/libpcre2-16-0
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE2-2808704
+  Introduced through: pcre2/libpcre2-16-0@10.36-2, cairo/libcairo2-dev@1.16.0-5, pcre2/libpcre2-32-0@10.36-2, pcre2/libpcre2-posix2@10.36-2, pcre2/libpcre2-dev@10.36-2, meta-common-packages@meta
+  From: pcre2/libpcre2-16-0@10.36-2
+  From: cairo/libcairo2-dev@1.16.0-5 > glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > pcre2/libpcre2-dev@10.36-2 > pcre2/libpcre2-16-0@10.36-2
+  From: pcre2/libpcre2-32-0@10.36-2
+  and 6 more...
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Critical severity vulnerability found in libde265/libde265-0
   Description: Out-of-bounds Write
@@ -2118,7 +2070,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: libde265/libde265-0@1.0.8-1, libheif/libheif1@1.11.0-1
   From: libde265/libde265-0@1.0.8-1
   From: libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Critical severity vulnerability found in aom/libaom0
   Description: Release of Invalid Pointer or Reference
@@ -2126,7 +2078,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Critical severity vulnerability found in aom/libaom0
   Description: Use After Free
@@ -2134,7 +2086,7 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 ✗ Critical severity vulnerability found in aom/libaom0
   Description: Buffer Overflow
@@ -2142,31 +2094,31 @@ Testing gscloudcz/php81-apache-custom:latest...
   Introduced through: aom/libaom0@1.0.0.errata1-3, libheif/libheif1@1.11.0-1
   From: aom/libaom0@1.0.0.errata1-3
   From: libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
-  Image layer: Introduced by your base image (php:8.1-apache-bullseye)
+  Image layer: Introduced by your base image (php:8.1.6-apache-bullseye)
 
 
 
+Organization:      mxdpeep
 Package manager:   deb
 Project name:      docker-image|gscloudcz/php81-apache-custom
 Docker image:      gscloudcz/php81-apache-custom:latest
 Platform:          linux/amd64
-Base image:        php:8.1-apache-bullseye
+Base image:        php:8.1.6-apache-bullseye
+Licenses:          enabled
 
-Tested 367 dependencies for known vulnerabilities, found 228 vulnerabilities.
+Tested 362 dependencies for known issues, found 222 issues.
 
-Base Image               Vulnerabilities  Severity
-php:8.1-apache-bullseye  103              3 critical, 0 high, 1 medium, 99 low
+Base Image                 Vulnerabilities  Severity
+php:8.1.6-apache-bullseye  100              2 critical, 0 high, 0 medium, 98 low
 
 Recommendations for base image upgrade:
 
 Alternative image types
-Base Image                 Vulnerabilities  Severity
-php:8.1-fpm                90               3 critical, 0 high, 1 medium, 86 low
-php:8.1-rc-zts             90               3 critical, 0 high, 1 medium, 86 low
-php:8.1-rc-fpm             90               3 critical, 0 high, 1 medium, 86 low
-php:8.1.5RC1-fpm-bullseye  92               3 critical, 0 high, 1 medium, 88 low
+Base Image             Vulnerabilities  Severity
+php:8.1-zts-buster     180              0 critical, 1 high, 0 medium, 179 low
+php:8-cli-buster       180              0 critical, 1 high, 0 medium, 179 low
+php:8.1.6-fpm-buster   180              0 critical, 1 high, 0 medium, 179 low
+php:8.1-rc-cli-buster  180              0 critical, 1 high, 0 medium, 179 low
 
-
-For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp
 
 

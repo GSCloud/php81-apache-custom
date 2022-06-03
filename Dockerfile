@@ -10,14 +10,12 @@ RUN a2enmod rewrite expires headers \
     && apt-get upgrade \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && apt-get -y install --no-install-recommends git sudo \
-        sqlite3 \
         libfreetype6-dev libjpeg62-turbo-dev libpng-dev \
         libmagickwand-dev ghostscript \
         libicu-dev \
-        libzip-dev zip unzip \
         libpq-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \    
-    && docker-php-ext-install -j$(nproc) gd pdo_mysql pgsql pdo_pgsql bcmath intl opcache zip \
+    && docker-php-ext-install -j$(nproc) gd pdo_mysql bcmath intl opcache \
     && git clone https://github.com/Imagick/imagick /tmp/imagick \
     && cd /tmp/imagick \
     && phpize && ./configure \

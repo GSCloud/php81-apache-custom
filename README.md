@@ -1,4 +1,4 @@
 # PHP 8.1 Apache - custom image
 
-  - mods enabled: expire headers rewrite 
-  - gd, pdo_mysql, pgsql, pdo_pgsql, bcmath, intl, opcache, zip, redis, imagick, sockets
+  - Apache mods: expire headers rewrite 
+  - PHP extensions: gd, pdo_mysql, bcmath, intl, opcache, redis, imagick, sockets
