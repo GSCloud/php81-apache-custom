@@ -1,4 +1,6 @@
-# PHP 8.1 Apache - custom image
+# PHP 8.1 Apache Custom Image
 
-  - mods enabled: expire headers rewrite 
-  - gd, pdo_mysql, pgsql, pdo_pgsql, bcmath, intl, opcache, zip, redis, imagick, sockets
+Distributed under **MIT** license.
+
+* **mods enabled**: expire headers rewrite
+* **extensions**: gd, pdo_mysql, pgsql, pdo_pgsql, bcmath, intl, opcache, zip, redis, imagick, sockets
